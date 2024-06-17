@@ -1,17 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getDatabase, ref, push, onValue, remove } from "https://turnos-3b42a-default-rtdb.firebaseio.com/";
 
-// Configuração do Firebase
-const firebaseConfig = {
-    apiKey: "AIzaSyD-tXOsvMb-qJrWLTjsNOZI4SxDMD584Xo",
-    authDomain: "turnos-3b42a.firebaseapp.com",
-    databaseURL: "https://turnos-3b42a-default-rtdb.firebaseio.com",
-    projectId: "turnos-3b42a",
-    storageBucket: "turnos-3b42a.appspot.com",
-    messagingSenderId: "834124372879",
-    appId: "1:834124372879:web:7ddec1d5349127fd4dc9fa",
-    measurementId: "G-RCBXLPY2GC"
-};
+
 
 // Inicializa o Firebase
 const app = initializeApp(firebaseConfig);
