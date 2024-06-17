@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.phibrosaudeanimal.com/wp-content/uploads/2021/09/favicon_64x64.png" type="image/x-icon">
+    <title>Tabela de Processos</title>
+    <link rel="stylesheet" href="/pages/archive/cell.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/pages/docs/docs.html"><img src="/img/back.svg" alt="Botão de voltar"></a>
+            <h1>Vizualização de documento</h1>
+            <div>
+                <a href=""><img src="/img/Don.svg" alt=""></a>
+            </div>
+        </nav>
+    </header>
+    <table id="processTable">
+        <thead>
+            <tr>
+                <th>Mixer</th>
+                <th>Processo</th>
+                <th>Lote</th>
+                <th>Hora Inicial</th>
+                <th>Hora Final</th>
+                <th>Observação</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Linhas iniciais podem ser adicionadas aqui -->
+        </tbody>
+    </table>
+    <div>
+        <button onclick="addRow()">Adicionar Linha</button>
+        <button onclick="downloadXLSX()">Baixar XLSX</button>
+        <button onclick="visualizeData()">Visualizar Dados</button>
+        <img src="" alt="">
+    </div>
+
+    <script src="/pages/archive/cell.js"></script>
+</body>
+</html>

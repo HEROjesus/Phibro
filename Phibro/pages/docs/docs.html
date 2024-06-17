@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Controle</title>
+    <link rel="shortcut icon" href="https://www.phibrosaudeanimal.com/wp-content/uploads/2021/09/favicon_64x64.png" type="image/x-icon">
+    <link rel="stylesheet" href="/pages/docs/docs.css">
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo"><img src="https://www.phibrosaudeanimal.com/wp-content/uploads/2021/09/favicon_64x64.png"
+                    alt=""></div>
+            <nav>
+                <ul>
+                    <li class="active"><a href="/pages/docs/docs.html">inicio</a></li>
+                    <li><a href="/pages/form/form.html">Meus Formulários</a></li>
+                    <li><a href="#">Análises</a></li>
+                    <li><a href="#">Base de Conhecimento</a></li>
+                    <li><a href="#">Ajuda & Suporte</a></li>
+                </ul>
+            </nav>
+            <div class="profile">
+                <a href="#">Meu Perfil</a>
+                <a style="color: red;" href="/pages/log/log.html">Sair</a>
+            </div>
+        </aside>
+        <main class="main-content">
+            <div class="main-content">
+                <header>
+                    <h1>Bom dia, colaborador</h1>
+                    <input type="text" placeholder="Procurar...">
+                </header>
+                <div class="actions">
+                    <button class="new-document" type="submit" onclick="window.location.href='/pages/archive/cell.html'"><img src="/img/Vector 54 (Stroke).svg" alt="Icon">+ Novo documento</button>
+                    <button>Todos os documentos</button>
+                    <button>Importar lista de emails</button>
+                </div>
+                <div class="documents">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Responsaveis</th>
+                                <th>Ultima atualização</th>
+                                <th>Respostas</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Repita esta linha para cada documento -->
+                            <tr>
+                                <td>
+                                    <strong>Ronaldo Rodrigues</strong><br>
+                                    
+                                </td>
+                                <td>25 Dec 2022 - 18:24</td>
+                                <td>688<br>8 today</td>
+                                <td><a href="#">Ver mais → </a></td>
+                            </tr>
+                            <!-- Repita até aqui -->
+                            <!-- Adicione mais linhas conforme necessário -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+    </div>
+</body>
+
+</html>
