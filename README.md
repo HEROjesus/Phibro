@@ -29,8 +29,15 @@ A aplicação a ser desenvolvida tem como objetivo principal facilitar a criaç�
 - **Frontend:** React.js para uma interface de usuário dinâmica e responsiva.
 - **Backend:** Node.js com Express para gerenciamento de dados e operações de backend.
 - **Banco de Dados:** MongoDB para armazenamento de dados estruturados.
-- **Gráficos:** D3.js para criação de gráficos interativos.
+- **Gráficos:** D3.js para criação de gráficos interativos
+
 
 ### Conclusão
 
 A aplicação de criação e visualização de planilhas será uma ferramenta essencial para qualquer pessoa ou organização que precise gerenciar dados de forma eficiente. Com uma interface amigável e funcionalidades robustas, ela promete aumentar a produtividade e facilitar a análise de informações.
+
+<div>
+   <img align="center" alt="Rafa-Swift" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg">
+  <a href="https://www.figma.com/design/52Wa8AkcSFBVOsYEWeHOuo/Projeto-Phibro?node-id=0-1&t=ZWvbquy2XUwM56Hz-1">Saiba mais</a>
+</div>
+
